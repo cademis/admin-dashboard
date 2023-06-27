@@ -56,10 +56,9 @@ body {
   font-size: 15px;
 }
 
-.social {
-  display: flex;
-  flex-direction: column;
-}
+/* .social {
+  display: grid;
+} */
 
 .reaction {
   justify-self: end;
@@ -122,4 +121,26 @@ body {
 .heading {
   font-size: 15px;
   padding-left: 10px;
+}
+
+.icon-button {
+  width: 20px;
+  height: 20px;
+  background-image: url("assets/star-plus-outline.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: auto;
+  /* transition: background-color 0.01s; */
+}
+
+.icon-button:hover {
+  background-color: lightgray; /* Add a hover background color */
+}
+
+.icon-button:active {
+  background-color: transparent; /* Add an active background color */
 }
